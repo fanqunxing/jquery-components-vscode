@@ -4,5 +4,5 @@
 </div>
 
 
-![test](https://github.com/fwx426328/vetur/blob/master/asset/vue.png?raw=true)
+![test](https://github.com/fwx426328/jquery-components-vscode/blob/master/img/test.png?raw=true)
 
