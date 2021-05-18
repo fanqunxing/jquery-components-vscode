@@ -1,0 +1,55 @@
+{
+    "name": "jquery-components",
+    "displayName": "jquery-components For Highlighter",
+    "description": "jquery-components for Highlighter",
+    "version": "1.0.0",
+    "publisher": "fanqunxing",
+    "icon": "img/logo.png",
+    "engines": {
+        "vscode": "^0.10.5"
+    },
+    "keywords": [
+        "jquery",
+        "jq",
+        "jQuery",
+        "jquery-components"
+    ],
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "jq",
+            "aliases": ["jq", "jq"],
+            "extensions": [".jq"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "jq",
+            "scopeName": "text.html.jq",
+            "path": "./syntaxes/jq.tmLanguage"
+        }],
+        "snippets": [
+            {
+             "language": "javascript",
+             "path": "./snippets/javascript.json"
+            },
+            {
+             "language": "typescript",
+             "path": "./snippets/javascript.json"
+            },
+            {
+             "language": "jq",
+             "path": "./snippets/javascript.json"
+            },
+            {
+             "language": "jq",
+             "path": "./snippets/html.json"
+            },
+            {
+             "language": "jq",
+             "path": "./snippets/jq.json"
+            }
+        ]
+    }
+}

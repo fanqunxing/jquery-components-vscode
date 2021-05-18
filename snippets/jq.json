@@ -1,0 +1,55 @@
+{
+    "jq": {
+        "prefix": "jq",
+        "body": [
+            "<template>",
+            "\t$1",
+            "</template>",
+            "<script>",
+            "export default function ($) {",
+            "\t",
+            "}",
+            "</script>",
+            "<style>",
+            "\t",
+            "</style>"
+        ],
+        "description": "jquery template"
+    },
+    "template": {
+        "prefix": "template",
+        "body": [
+            "<template>",
+            "\t$1",
+            "</template>"
+        ],
+        "description": "template element"
+    },
+    "script": {
+        "prefix": "script",
+        "body": [
+            "<script>",
+            "export default function ($) {",
+            "\t$1",
+            "}",
+            "</script>"
+        ],
+        "description": "script element"
+    },
+    "styleLang": {
+        "prefix": "style",
+        "body": [
+            "<style>",
+            "\t$0",
+            "</style>"
+        ],
+        "description": "style element with lang attribute"
+    },
+    "import": {
+        "prefix": "import",
+        "body": [
+            "<import name=\"$0\" src=\"$1\"><import>"
+        ],
+        "description": "components"
+    }
+}
